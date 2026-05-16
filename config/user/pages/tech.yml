@@ -1,1 +1,21 @@
+title: 技术社区
+subtitle: 技术交流平台
 
+template: page
+
+categories:
+  - name: 技术社区
+    icon: fas fa-code
+    sites:
+      - name: Linux.do
+        url: https://linux.do/
+        icon: fab fa-linux
+        description: 新的理想型社区
+      - name: V2EX
+        url: https://www.v2ex.com/
+        icon: fas fa-code
+        description: 创意工作者社区
+      - name: NodeSeek
+        url: https://www.nodeseek.com/
+        icon: fas fa-server
+        description: 技术交流社区
