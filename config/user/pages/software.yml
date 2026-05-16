@@ -1,1 +1,21 @@
+title: 软件坊
+subtitle: 软件资源
 
+template: page
+
+categories:
+  - name: 软件坊
+    icon: fas fa-cube
+    sites:
+      - name: PHCorner论坛
+        url: https://phcorner.org/forums/61/
+        icon: fas fa-cube
+        description: 软件资源论坛
+      - name: Revanced Extended
+        url: https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root/releases
+        icon: fab fa-github
+        description: 安卓应用修改版
+      - name: Mobilism论坛
+        url: https://forum.mobilism.org/viewforum.php?f=399
+        icon: fas fa-cube
+        description: 移动应用资源
