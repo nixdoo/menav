@@ -2,11 +2,11 @@
 # 建议复制到 config/user/site.yml 并按需调整；用户配置采用“完全替换”策略，将覆盖默认配置。
 
 # 网站基本信息
-title: MeNav
+title: Homelab
 description: Personal Navigation Station
-author: rbetree
+author: nixdoo
 favicon: menav.svg
-logo_text: MeNav
+logo_text: Homelab
 
 icons:
   # 站点卡片图标模式：
@@ -71,7 +71,7 @@ profile:
 # - `npm run build` 默认不联网；仅 `npm run sync-articles` 会联网抓取并写入缓存
 # - 缓存目录建议放在 dev/（仓库默认 gitignore），避免误提交
 rss:
-  enabled: true
+  enabled: false
   cacheDir: dev
   fetch:
     timeoutMs: 10000 # 单请求超时（毫秒）
@@ -88,7 +88,7 @@ rss:
 # - username：你的 GitHub 用户名（例如 torvalds）
 # - heatmapColor：热力图主题色（不带 #，例如 339af0）
 github:
-  username: 'rbetree' # 你的 GitHub 用户名（例如 torvalds；为空则 projects 页不展示热力图）
+  username: '' # 你的 GitHub 用户名（例如 torvalds；为空则 projects 页不展示热力图）
   heatmapColor: 37b24d
   cacheDir: dev # projects 仓库元信息缓存目录（默认 dev，仓库默认 gitignore）
 
@@ -100,27 +100,34 @@ social:
   - name: Telegram
     url: https://t.me
     icon: fab fa-telegram
-  - name: Twitter
-    url: https://twitter.com
-    icon: fab fa-twitter
-  - name: Steam
-    url: https://steam.com
-    icon: fab fa-steam
+  - name: Reddit
+    url: https://reddit.com
+    icon: fab fa-reddit
+
 
 # 导航配置（顺序第一项即首页/默认打开页）
 navigation:
   - name: 常用 # 菜单名称
     icon: fas fa-star # Font Awesome 图标类
     id: common # 页面标识符（唯一，需与 pages/<id>.yml 对应）
-  - name: 项目
-    icon: fas fa-project-diagram
-    id: projects
-  - name: 文章
+  - name: 在线影视
+    icon: fas fa-film
+    id: video
+  - name: 影视下载
+    icon: fas fa-magnet
+    id: resources
+  - name: 软件坊
+    icon: fas fa-cube
+    id: software
+  - name: 书籍漫画
     icon: fas fa-book
-    id: articles
-  - name: 书签
-    icon: fas fa-bookmark
-    id: bookmarks
+    id: books
+  - name: 字幕下载
+    icon: fas fa-closed-captioning
+    id: subtitle
+  - name: 技术社区
+    icon: fas fa-code
+    id: tech
   - name: 关于
     icon: fas fa-file-alt
     id: content
