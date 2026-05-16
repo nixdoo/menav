@@ -1,46 +1,21 @@
-# 默认页面配置（请勿直接修改）。
-# 建议复制到 config/user/pages/common.yml 并按需调整。
-title: 书籍漫画 # 页面标题
-subtitle: Common website # 页面副标题
+title: 书籍漫画
+subtitle: 电子书与漫画资源
 
-# 指定使用的内置页面类型（由 Astro 组件渲染）
-# 说明：推荐使用通用页面类型 page；首页由“导航第一项”决定
 template: page
 
-# 页面分类与站点列表
 categories:
-  - name: 置顶
-    icon: fas fa-star # 分类图标
+  - name: 书籍漫画
+    icon: fas fa-book
     sites:
-      - name: Linux.do # 站点名称
-        url: https://linux.do/ # http/https URL（favicon 模式将尝试加载站点图标）
-        icon: fab fa-linux # 手动图标：manual 模式使用；favicon 模式下作为回退
-        description: 新的理想型社区 # 站点描述
-      - name: GitHub
-        url: https://www.github.com
-        icon: fab fa-github
-        description: 代码托管平台
-      - name: Cloudflare
-        url: https://www.cloudflare.com
-        icon: fas fa-cloud
-        description: CDN与安全服务
-      - name: ChatGPT
-        url: https://chat.openai.com
-        icon: fas fa-robot
-        description: AI智能助手
-      - name: Claude
-        url: https://claude.ai
-        icon: fas fa-brain
-        description: AI智能助手
-      - name: YouTube
-        url: https://www.youtube.com
-        icon: fab fa-youtube
-        description: 视频分享平台
-      - name: Bilibili
-        url: https://www.bilibili.com
-        icon: fas fa-bilibili
-        description: 视频学习平台
-      - name: Reddit
-        url: https://www.reddit.com
-        icon: fab fa-reddit
-        description: 社区讨论平台
+      - name: Z-Library
+        url: https://z.wwwnav.com/
+        icon: fas fa-book
+        description: 全球最大电子书库
+      - name: Anna's Archive
+        url: https://annas-archive.gl/
+        icon: fas fa-book
+        description: 开源图书馆
+      - name: GetComics
+        url: https://getcomics.org/
+        icon: fas fa-book-open
+        description: 漫画资源
