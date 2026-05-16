@@ -1,1 +1,21 @@
+title: 字幕下载
+subtitle: 影视字幕资源
 
+template: page
+
+categories:
+  - name: 字幕下载
+    icon: fas fa-closed-captioning
+    sites:
+      - name: SubHD
+        url: https://subhd.tv/
+        icon: fas fa-closed-captioning
+        description: 字幕下载
+      - name: 字幕库
+        url: https://zimuku.org/
+        icon: fas fa-closed-captioning
+        description: 字幕资源库
+      - name: 射手网(伪)
+        url: https://2.assrt.net/xml/list/sub/
+        icon: fas fa-closed-captioning
+        description: 字幕搜索
