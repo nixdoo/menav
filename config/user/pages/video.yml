@@ -1,1 +1,25 @@
+title: 在线影视
+subtitle: 影视资源
 
+template: page
+
+categories:
+  - name: 在线影视
+    icon: fas fa-film
+    sites:
+      - name: 七味网
+        url: https://www.qwnull.com/
+        icon: fas fa-play
+        description: 在线影视
+      - name: 映像星球
+        url: https://www.yxxq28.cc/
+        icon: fas fa-play
+        description: 在线影视
+      - name: 4k影视
+        url: https://www.4kvm.me/
+        icon: fas fa-play
+        description: 4K影视资源
+      - name: 永乐视频
+        url: https://www.ylsp.lv/
+        icon: fas fa-play
+        description: 在线视频
