@@ -369,3 +369,12 @@ html.light-theme .dashboard-panel {
     margin-top: 0.5rem;
   }
 }
+
+
+.dashboard-clock-card {
+  display: none !important;
+}
+
+.dashboard-stats {
+  display: none !important;
+}
