@@ -1,1 +1,33 @@
+title: 影视下载
+subtitle: 磁力种子资源
 
+template: page
+
+categories:
+  - name: 影视下载
+    icon: fas fa-magnet
+    sites:
+      - name: 4k指南
+        url: https://4kzn.com/
+        icon: fas fa-magnet
+        description: 4K资源指南
+      - name: SeedHub
+        url: https://www.seedhub.cc/
+        icon: fas fa-magnet
+        description: 种子资源
+      - name: 磁力柠檬
+        url: https://lemonun.top/
+        icon: fas fa-magnet
+        description: 磁力搜索
+      - name: BTDigg
+        url: https://btdig.com/
+        icon: fas fa-magnet
+        description: BT搜索
+      - name: BT4G
+        url: https://bt4gprx.com/
+        icon: fas fa-magnet
+        description: BT搜索
+      - name: 老王磁力
+        url: https://laowangbt.cc/
+        icon: fas fa-magnet
+        description: 磁力搜索
